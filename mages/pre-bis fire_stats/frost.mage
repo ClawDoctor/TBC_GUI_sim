@@ -1,0 +1,26 @@
+
+label Frost
+color 0.2 0.5 1
+# stats
+stats_file mage.stats
+
+
+
+#Frost Talents
+elemental_precision 3
+improved_frostbolt 5
+ice_shards 5
+piercing_ice 3
+icy_veins 1
+frost_channeling 3
+empowered_frostbolt 5
+summon_water_elemental 1
+winters_chill 5
+arctic_winds 5
+cold_snap 1
+
+arcane_concentration 5
+
+# rotations
+save_rotation: frostbolt
+burn_rotation: None

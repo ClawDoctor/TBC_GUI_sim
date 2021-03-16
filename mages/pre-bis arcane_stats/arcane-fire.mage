@@ -1,0 +1,33 @@
+
+label Arcane fire (3xAB, scorch, 2xFB)
+color 1 0 0.3
+
+# stats
+stats_file mage.stats
+
+# Arcane Talents
+arcane_focus 5
+arcane_impact 3
+arcane_concentration 5
+arcane_meditation 3
+arcane_mind 5
+arcane_potency 3
+arcane_instability 3
+arcane_power 1
+spell_power 2
+mind_mastery 5
+prescence_of_mind 1
+
+# Frost Talents
+elemental_precision 3
+
+#Fire Talents
+improved_fireball 5
+ignite 5
+incinerate 2
+pyroblast 1
+improved_scorch 3
+
+# rotations
+save_rotation: arcane_blast_3speed_0mana arcane_blast_1speed_1mana arcane_blast_2speed_2mana scorch fireball fireball
+burn_rotation: arcane_blast_3speed_3mana
