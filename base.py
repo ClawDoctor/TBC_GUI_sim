@@ -19,7 +19,7 @@ class mainFrame(ttk.Frame):  # main window
         ttk.Frame.__init__(self, parent)
         ##self.update() #temp
         # set window title, icon
-        self.parent.title("Data manager")
+        self.parent.title("TBC mage")
         _, ICON_PATH = tempfile.mkstemp()
         with open(ICON_PATH, 'wb') as icon_file:
             icon_file.write(ICON)  # icon loaded in TDM.py
