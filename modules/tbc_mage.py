@@ -259,7 +259,7 @@ class moduleClass:
 		linestyles=['-','-.','--',(0, (3, 1, 1, 1, 1, 1)),':']
 
 		self.frame.hidden_figure.set_dpi(300)
-		self.frame.hidden_figure.set_size_inches(8,4)
+		self.frame.hidden_figure.set_size_inches(6,4)
 		#self.frame.update()
 		#self.frame.figure.	canvas.draw()
 		if ui['plot_dmg']:
