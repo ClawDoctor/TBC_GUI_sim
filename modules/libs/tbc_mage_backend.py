@@ -508,7 +508,7 @@ def optimize_cycles_return_damage(stats, times, talents, expensive_rot, cheap_ro
     times_mod *= (1+stats['fraction_haste']) # multiply time available by haste instead of dividing every spell by it
     # mana
     base_manas = stats['mana']*1 + (stats['mp5_in_combat']/5)*times+0.05*talents['shadow_priest_dps']*times
-    print(stats['mana'],(stats['mp5_in_combat']/5)*times[-1],base_manas[-1])
+    #print(stats['mana'],(stats['mp5_in_combat']/5)*times[-1],base_manas[-1])
     #print(stats['mp5_in_combat']/5)
     #print(stats['mana'])
     #print(stats['intellect'])
