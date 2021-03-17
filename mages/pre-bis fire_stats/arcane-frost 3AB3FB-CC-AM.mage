@@ -1,0 +1,33 @@
+
+label Arcane frost (3AB+3FB,CC->AM)
+color 0.5 0 1
+
+# stats
+stats_file mage.stats
+
+
+# Arcane Talents
+arcane_focus 5
+arcane_impact 3
+arcane_concentration 5
+arcane_meditation 3
+arcane_mind 5
+arcane_potency 3
+arcane_instability 3
+arcane_power 1
+spell_power 2
+mind_mastery 5
+prescence_of_mind 1
+
+# Frost Talents
+elemental_precision 3
+improved_frostbolt 5
+ice_shards 5
+piercing_ice 3
+icy_veins 1
+frost_channeling 3
+cold_snap 1
+
+# rotations
+save_rotation: arcane_frost_clearcasting_optimized
+burn_rotation: arcane_blast_3speed_3mana
